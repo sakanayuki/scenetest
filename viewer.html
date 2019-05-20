@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <title>3D Test</title>
+<!--   Include both scripts below to support all browsers! -->
+
+<!-- Loads <model-viewer> for modern browsers: -->
+<script type="module"
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+</script>
+<!-- Loads <model-viewer> for old browsers like IE11: -->
+<script nomodule
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+</script>
+</head>
+  <body>
+    <model-viewer ar src="https://googlewebcomponents.github.io/model-viewer/examples/assets/Astronaut.glb"></model-viewer>
+    <model-viewer ar src="Astronaut.glb"></model-viewer>
+  </body>
+</html>
